@@ -1,0 +1,12 @@
+---
+layout: base.njk
+---
+
+<h2>{{title}}</h2>
+<h6>
+  {{date.toLocaleString('en-US', {timeZone: "UTC", month: "long", day: "numeric", year: "numeric"})}}
+  /
+  {{author}}
+</h6>
+
+{{content | safe}}

@@ -1,0 +1,78 @@
+/* h1 is used for the Talia Duffy at the top */
+h1 {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 800;
+  text-align: center;
+  font-size: min(12.75vw, 150px);
+  margin-bottom: 30px;
+}
+
+h1 .t {
+  color: #ccc200;
+}
+
+h1 .i {
+  background: -webkit-linear-gradient(90deg, rgba(33,37,41,1) 65%, rgba(204,194,0,1) 65%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.talia-header a {
+  color: #ccc200;
+}
+
+.talia-header a:hover {
+  color: #ccc200;
+}
+
+.talia-header a h1 {
+  color: black;
+  text-decoration: none;
+}
+
+
+/* h2 is used for the post titles */
+h2 {
+  font-family: 'DM Sans', sans-serif;
+  margin-top: 24px;
+  font-size: 44px;
+  line-height: 100%;
+}
+
+h2 a {
+  color: black;
+  text-decoration: none;
+}
+
+h2 a:hover {
+  color: #880;
+}
+
+.continue-reading {
+  text-align: right;
+}
+.continue-reading > a {
+  color: #880;
+}
+
+
+
+/* h6 is used for the author / date line */
+h2 + h6 {
+  font-family: 'DM Sans', sans-serif;
+  color: #2e2c00;
+  margin-left: 3px;
+}
+
+main {
+  max-width: 1000px !important;
+}
+
+
+
+.nav {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 800;
+  background-color: rgba(204,194,0,0.15);
+}
+
