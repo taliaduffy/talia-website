@@ -1,24 +1,25 @@
-<nav class="navbar is-light" role="navigation" aria-label="main navigation">
-  <div class="navbar-start">
-    <div class="navbar-item has-text-weight-bold">
-      {{ site.title }}
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/writing">
+            Write
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/Multimedia">
+            Multimedia
+          </a>
+        </li>
+      </ul>
     </div>
-  </div>
-  <div class="navbar-end">
-    <a href="/" class="navbar-item">
-      Home
-    </a>
-
-    <a href="/src/posts" class="navbar-item">
-      Writing
-    </a>
-
-    <a href="/src/multimedia" class="navbar-item">
-      Multimedia
-    </a>
-
-    <a href="/src/about" class="navbar-item">
-      About Me
-    </a>
   </div>
 </nav>
